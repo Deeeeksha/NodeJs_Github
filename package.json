@@ -2,7 +2,7 @@
   "name": "First CI app",
   "dependencies": {
     "lodash": "*"
-  }
+  },
   "scripts": {
     "lint": "echo 'Linting!'",
     "build": "echo 'Running a build!'",
