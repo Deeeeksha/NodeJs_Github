@@ -11,10 +11,13 @@ jobs:
         uses: actions/checkout@v2
         with:
           persist-credentials: false
-
+          
+      - name: Clean Cache
+        run: npm cache clean -force
+        
       - name: Install 🔧
         run: npm install
-
+      
       - name: Lint 🧐
         run: npm run lint
 
